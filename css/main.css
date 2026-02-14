@@ -290,9 +290,9 @@ body {
   pointer-events: none !important;
 }
 
-.flowers:nth-child(odd) { transform: scale(0.4) translateY(5vmin); z-index: 5; opacity: 0.8; }
-.flowers:nth-child(even) { transform: scale(0.4) translateY(-2vmin); z-index: 10; }
-.flowers:nth-child(5), .flowers:nth-child(6), .flowers:nth-child(7) { transform: scale(0.4) translateY(-5vmin); z-index: 15; opacity: 1; }
+.flowers:nth-child(odd) { transform: scale(0.5) translateY(5vmin); z-index: 5; opacity: 0.8; }
+.flowers:nth-child(even) { transform: scale(0.5) translateY(-2vmin); z-index: 10; }
+.flowers:nth-child(5), .flowers:nth-child(6), .flowers:nth-child(7) { transform: scale(0.5) translateY(-5vmin); z-index: 15; opacity: 1; }
 
 /* ESTILOS DAS FLORES */
 .flower { position: absolute; bottom: 10vmin; transform-origin: bottom center; z-index: 10; --fl-speed: 0.8s; }
@@ -650,4 +650,5 @@ body {
     .poke-img-container {
         height: 100%;
     }
+
 }
